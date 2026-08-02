@@ -136,7 +136,7 @@ NSString *getCompactQualityLabel(MLFormat *format) {
 
 %ctor {
     initYTVideoOverlay(TweakKey, @{
-        AccessibilityLabelKey: @"Quality",
+        AccessibilityLabelKey: @"YouQuality",
         SelectorKey: @"didPressYouQuality:",
         AsTextKey: @YES
     });
